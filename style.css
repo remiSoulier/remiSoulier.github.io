@@ -3,7 +3,7 @@ body{
 }
 /****************************************header********************************************/
 header{
-    height: 100px;
+    min-height: 100px;
     margin: 0px;
     background-color: #E6F4F1;
 }
@@ -27,6 +27,9 @@ nav{
     background-color: #E6F4F1;
 }
 
+#burger{
+    display: none;
+}
 .burgerMenu{
     display: none;
 }
@@ -46,9 +49,20 @@ nav{
     .menu{
         display: none;
     }
-    .burgerMenu{
+    #burger{
         display: flex;
+        align-content: flex-end;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-end;
+
 
     }
+
+    #imgBurger:hover .burgerMenu{
+        display: block;
+
+    }
+
+
 }
