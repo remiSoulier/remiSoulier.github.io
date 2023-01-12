@@ -1,7 +1,7 @@
 body{
     margin: 0px;
-    max-width: 100%;
-    overflow-x:hidden ;
+    background-color: #d6eae2;
+
 }
 /****************************************header********************************************/
 header{
@@ -34,8 +34,9 @@ nav{
 #burger{
     display: none;
 }
-
-
+.burgerMenu{
+    display: none;
+}
 
 
 .liseret{
@@ -59,23 +60,17 @@ nav{
     transition: all 300ms ease-in-out;;
     z-index: -1;
 }
-#panneauLateral .burgerMenu{
-    position: relative;
-    top: 115px;
 
-
-}
-
-@media screen and (max-width: 1100px ){
-    .menu{
+@media screen and (max-width: 1100px ) {
+    .menu {
         display: none;
     }
 
-    #imgBurger{
+    #imgBurger {
         height: 95px;
     }
 
-    #burger{
+    #burger {
         display: flex;
         align-content: flex-end;
         flex-direction: column;
@@ -86,20 +81,21 @@ nav{
     }
 
 
-    #imgBurger:hover~.burgerMenu{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        position: relative;
-        top: 115px;
+    #imgBurger:hover ~ .burgerMenu {
+        display: block;
+
     }
 
-
-
-    #imgBurger:hover~#panneauLateral{
+    #imgBurger:hover ~ #panneauLateral {
         margin-right: 0;
         background-color: aquamarine;
     }
-
-
 }
+/********************************************  main  ************************************/
+
+ main.h2{
+     position: relative;
+     left: 40px;
+     top:30px;
+ }
+
