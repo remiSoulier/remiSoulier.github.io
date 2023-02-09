@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: #DEDBD7 ;
+}
+/*
+    #2d58db bleu
+    #e9de41 jaune
+*/
+
+
+/*------------------------------------------   Header  ----------------------------------*/
+header{
+    background-color:#2d58db;
+    position: fixed;
+    width: 100%;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+nav div{
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav div:hover{
+    background-color:#e9de41 ;
+}
+
+nav div h2{
+    font-size: 20px;
+    color: #d6eae2;
+
+}
+
+/*------------------------------------------   Main  --------------------------------------*/
+
+#bgVillage{margin-top: 100px;
+    width: 100%;
+
+}
+
+main{
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+article{
+    width: 60%;
+    background-color: #ece8e6;
+
+}
+article *{
+    margin-top:3%;
+    margin-left:3%;
+    margin-right:3%;
+}
+aside{
+    margin-left: 10%;
+    width: 30%;
+    background-color: #ece8e6;
+}
+aside *{
+    margin-top:3%;
+    margin-left:5%;
+    margin-right:3%;
+}
