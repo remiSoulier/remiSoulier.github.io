@@ -21,6 +21,13 @@ nav{
     align-content: center;
     justify-content: center;
 }
+
+#logo{
+    margin-top:10px ;
+    margin-right: 20px;
+    height: 80px
+}
+
 nav div{
     width: 150px;
     height: 100px;
@@ -30,8 +37,8 @@ nav div{
 
 }
 
-nav div:hover{
-    background-color:#e9de41 ;
+nav div:hover~.ligne{
+    visibility: visible;
 }
 
 nav div h2{
@@ -43,6 +50,8 @@ nav div h2{
     position: absolute;
     bottom: 0px;
     height: 10px;
+    color: #e9de41;
+    visibility: hidden;
 }
 
 /*------------------------------------------   Main  --------------------------------------*/
@@ -53,9 +62,7 @@ nav div h2{
 }
 
 main{
-    margin-top: 70px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 70px 5% 5%;
 
     display: flex;
     flex-direction: row;
@@ -78,7 +85,5 @@ aside{
     background-color: #ece8e6;
 }
 aside *{
-    margin-top:3%;
-    margin-left:5%;
-    margin-right:3%;
+    margin: 3% 3% 5% 5%;
 }
