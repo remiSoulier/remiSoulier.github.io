@@ -39,6 +39,11 @@ nav div h2{
     color: #d6eae2;
 
 }
+.ligne{
+    position: absolute;
+    bottom: 0px;
+    height: 10px;
+}
 
 /*------------------------------------------   Main  --------------------------------------*/
 
