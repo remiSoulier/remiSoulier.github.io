@@ -11,7 +11,7 @@ body{
 /*------------------------------------------   Header  ----------------------------------*/
 header{
     background-color:#2d58db;
-    position: fixed;
+
     width: 100%;
 
 }
@@ -86,4 +86,45 @@ aside{
 }
 aside *{
     margin: 3% 3% 5% 5%;
+}
+
+#equipeMunicipale{
+    width: 100%;
+}
+
+#conseil{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#conseillers{
+    display: flex;
+    flex-direction: column;
+}
+
+#conseillers1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+
+#conseillers2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+
+#conseillers3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 10px;
+}
+
+.portrait{
+    width: 250px;
+    height: 400px;
 }
