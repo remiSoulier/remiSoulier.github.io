@@ -21,7 +21,7 @@ header{
 
 nav{
     color: #000;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
@@ -32,8 +32,29 @@ nav{
 
 }
 
+a:hover{
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
 section{
     padding: 20px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 15px;
     background-color: darkolivegreen;
     text-align: center;
     font-size: 20px;
@@ -46,3 +67,19 @@ section{
     height: 50%;
 
 }
+
+#divPres{
+    display: flex;
+    justify-content: space-around;
+}
+
+#divPres>div{
+    width: 50%;
+    text-align: left;
+}
+
+#imgRemi{
+    width:25%;
+    height: 25%;
+}
+
